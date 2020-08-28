@@ -20,7 +20,7 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
-	@Override
+	@Override  // ta sobreescrevendo o metodo toString que é da classe Object
 	public String toString() {
 		return row + ", " +  column;
 	}
